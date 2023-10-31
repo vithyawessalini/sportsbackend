@@ -10,7 +10,7 @@ const cors = require('cors'); // Import CORS middleware
 app.use(cors());
 app.use(express.static('public'));
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/sportsmanagementsystem', {
+mongoose.connect('mongodb+srv://Vithyawessalini:7Ty1Nlwmpt05br4g@cluster0.95wjl6y.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
