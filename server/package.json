@@ -2,8 +2,8 @@
   "name": "sample",
   "version": "0.1.0",
   "private": true,
-  "main": "server.js",
-  "engines": {
+  "main":"server.js",
+   "engines": {
     "node": "14.20.1"
   },
   "dependencies": {
@@ -51,7 +51,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
+    ]
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.3"
